@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    height: 60px;
+    padding: 10px;
+}  
+.logoImg{
+    height: 50px;
+    width: 50px;
+}
+.logo{
+    display: flex;
+}
+
+.right{
+    margin-left: auto;
+    right: 0%;
+}
+.login{
+    padding: 5px;
+    width: 70px;
+    margin: 5px;
+    border-radius: 2pc;
+    color: beige;
+    background-color: black;
+
+}

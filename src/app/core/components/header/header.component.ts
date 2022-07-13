@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HeaderConstants } from '../../constants/header.constants';
 
 @Component({
   selector: 'sc-header',
@@ -6,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
+  logoImgSrc = HeaderConstants.logoImgPath;
+  logoHeading = HeaderConstants.logoHeading;
+  loginBtn = HeaderConstants.loginBtn
 
   constructor() { }
 
