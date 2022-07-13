@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FooterConstants } from '../../constants/footer.constants';
 
 @Component({
   selector: 'sc-footer',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+
+  copyRightHeading = FooterConstants.copyRightHeading;
+  copyRightName = FooterConstants.copyRightName;
 
   constructor() { }
 
