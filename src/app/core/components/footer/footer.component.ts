@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FooterConstants } from '../../constants/footer.constants';
+import { FooterConstants } from './constants/footer.constants';
 
 @Component({
   selector: 'sc-footer',

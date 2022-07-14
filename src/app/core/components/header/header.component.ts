@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderConstants } from '../../constants/header.constants';
+import { HeaderConstants } from './constants/header.constants';
 
 @Component({
   selector: 'sc-header',
